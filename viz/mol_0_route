@@ -1,0 +1,6 @@
+digraph G {
+	node [shape=box]
+	"CCC1=C(C=CC(=C1)C(=NOCC2=CC(=C(C=C2)C3CCCCC3)C(F)(F)F)C)CN4CC(C4)C(=O)O" -> "CCOC(=O)C1CN(Cc2ccc(C(C)=NOCc3ccc(C4CCCCC4)c(C(F)(F)F)c3)cc2CC)C1" [label=cost]
+	"CCOC(=O)C1CN(Cc2ccc(C(C)=NOCc3ccc(C4CCCCC4)c(C(F)(F)F)c3)cc2CC)C1" -> CCO [label=cost]
+	"CCOC(=O)C1CN(Cc2ccc(C(C)=NOCc3ccc(C4CCCCC4)c(C(F)(F)F)c3)cc2CC)C1" -> "CCc1cc(C(C)=NOCc2ccc(C3CCCCC3)c(C(F)(F)F)c2)ccc1CN1CC(C(=O)O)C1" [label=cost]
+}

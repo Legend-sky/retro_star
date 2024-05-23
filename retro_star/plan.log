@@ -1,0 +1,579 @@
+02-19 10:44 root         INFO     Loading starting molecules from dataset/origin_dict.csv
+02-19 10:45 root         INFO     23081629 starting molecules loaded
+02-19 10:45 root         INFO     190 routes extracted from dataset/routes_possible_test_hard.pkl loaded
+02-19 10:45 root         INFO     Templates: one_step_model/template_rules_1.dat
+02-19 10:45 root         INFO     Loading trained mlp model from one_step_model/saved_rollout_state_1_2048.ckpt
+02-19 10:45 root         INFO     Initializing value model: latent_dim=128
+02-19 10:45 root         INFO     Loading value nn from saved_models/best_epoch_final_4.pt
+02-19 10:48 root         INFO     Final search status | success value | iter: 7.796089157940578 | inf | 500
+02-19 10:48 root         INFO     Succ: 0/1/190 | avg time: 192.28 s | avg iter: 500.00
+02-19 10:49 root         INFO     Synthesis route found!
+02-19 10:49 root         INFO     Final search status | success value | iter: 10.045175548438872 | 10.716545129715872 | 159
+02-19 10:49 root         INFO     Succ: 1/2/190 | avg time: 128.53 s | avg iter: 329.50
+02-19 10:49 root         INFO     Expansion fails on Cl[Sb](Cl)(Cl)(Cl)Cl!
+02-19 10:49 root         INFO     Synthesis route found!
+02-19 10:49 root         INFO     Final search status | success value | iter: 5.944989306536879 | 12.4478346767475 | 41
+02-19 10:49 root         INFO     Succ: 2/3/190 | avg time: 92.39 s | avg iter: 233.33
+02-19 10:49 root         INFO     Synthesis route found!
+02-19 10:49 root         INFO     Final search status | success value | iter: 7.0098906947606 | 6.905859696293874 | 7
+02-19 10:49 root         INFO     Succ: 3/4/190 | avg time: 70.52 s | avg iter: 176.75
+02-19 10:54 root         INFO     Final search status | success value | iter: 13.39553674695544 | inf | 500
+02-19 10:54 root         INFO     Succ: 3/5/190 | avg time: 109.74 s | avg iter: 241.40
+02-19 10:54 root         INFO     Synthesis route found!
+02-19 10:54 root         INFO     Final search status | success value | iter: 6.489202277509785 | 11.454009976753145 | 44
+02-19 10:54 root         INFO     Succ: 4/6/190 | avg time: 94.81 s | avg iter: 208.50
+02-19 10:57 root         INFO     Synthesis route found!
+02-19 10:57 root         INFO     Final search status | success value | iter: 7.979309824118823 | 7.369132727103694 | 193
+02-19 10:57 root         INFO     Succ: 5/7/190 | avg time: 104.73 s | avg iter: 206.29
+02-19 11:01 root         INFO     Final search status | success value | iter: 10.325879905767835 | inf | 500
+02-19 11:01 root         INFO     Succ: 5/8/190 | avg time: 126.38 s | avg iter: 243.00
+02-19 11:02 root         INFO     Synthesis route found!
+02-19 11:02 root         INFO     Final search status | success value | iter: 8.057598321670802 | 10.43060799743681 | 45
+02-19 11:02 root         INFO     Succ: 6/9/190 | avg time: 114.04 s | avg iter: 221.00
+02-19 11:03 root         INFO     Synthesis route found!
+02-19 11:03 root         INFO     Final search status | success value | iter: 6.8997232671350766 | 9.841124821106316 | 135
+02-19 11:03 root         INFO     Succ: 7/10/190 | avg time: 108.26 s | avg iter: 212.40
+02-19 11:03 root         INFO     Synthesis route found!
+02-19 11:03 root         INFO     Final search status | success value | iter: 5.212176419664258 | 4.920676436393412 | 10
+02-19 11:03 root         INFO     Succ: 8/11/190 | avg time: 99.00 s | avg iter: 194.00
+02-19 11:03 root         INFO     Synthesis route found!
+02-19 11:03 root         INFO     Final search status | success value | iter: 4.028336354921047 | 3.8076262183435152 | 13
+02-19 11:03 root         INFO     Succ: 9/12/190 | avg time: 91.14 s | avg iter: 178.92
+02-19 11:03 root         INFO     Synthesis route found!
+02-19 11:03 root         INFO     Final search status | success value | iter: 1.176387863440338 | 0.758150636852372 | 4
+02-19 11:03 root         INFO     Succ: 10/13/190 | avg time: 84.32 s | avg iter: 165.46
+02-19 11:08 root         INFO     Final search status | success value | iter: 13.179313034739778 | inf | 500
+02-19 11:08 root         INFO     Succ: 10/14/190 | avg time: 98.94 s | avg iter: 189.36
+02-19 11:08 root         INFO     Synthesis route found!
+02-19 11:08 root         INFO     Final search status | success value | iter: 7.961652182973836 | 8.009363549043591 | 90
+02-19 11:08 root         INFO     Succ: 11/15/190 | avg time: 95.01 s | avg iter: 182.73
+02-19 11:08 root         INFO     Synthesis route found!
+02-19 11:08 root         INFO     Final search status | success value | iter: 1.548213939326955 | 0.474869130121569 | 4
+02-19 11:08 root         INFO     Succ: 12/16/190 | avg time: 89.17 s | avg iter: 171.56
+02-19 11:09 root         INFO     Synthesis route found!
+02-19 11:09 root         INFO     Final search status | success value | iter: 6.190959938780011 | 9.13236149275125 | 50
+02-19 11:09 root         INFO     Succ: 13/17/190 | avg time: 85.20 s | avg iter: 164.41
+02-19 11:09 root         INFO     Expansion fails on CC1=CC=CC(C)(C(F)(F)F)C1!
+02-19 11:09 root         INFO     Synthesis route found!
+02-19 11:09 root         INFO     Final search status | success value | iter: 2.5836476641607167 | 0.7421950798820572 | 8
+02-19 11:09 root         INFO     Succ: 14/18/190 | avg time: 80.58 s | avg iter: 155.72
+02-19 11:09 root         INFO     Synthesis route found!
+02-19 11:09 root         INFO     Final search status | success value | iter: 7.366950280559745 | 12.96756401710719 | 41
+02-19 11:09 root         INFO     Succ: 15/19/190 | avg time: 77.24 s | avg iter: 149.68
+02-19 11:12 root         INFO     Synthesis route found!
+02-19 11:12 root         INFO     Final search status | success value | iter: 8.35277084007051 | 8.22524708329653 | 473
+02-19 11:12 root         INFO     Succ: 16/20/190 | avg time: 82.91 s | avg iter: 165.85
+02-19 11:12 root         INFO     Synthesis route found!
+02-19 11:12 root         INFO     Final search status | success value | iter: 5.22616268575788 | 5.197899776523962 | 8
+02-19 11:12 root         INFO     Succ: 17/21/190 | avg time: 79.08 s | avg iter: 158.33
+02-19 11:14 root         INFO     Synthesis route found!
+02-19 11:14 root         INFO     Final search status | success value | iter: 8.032127826705889 | 7.421950729690761 | 198
+02-19 11:14 root         INFO     Succ: 18/22/190 | avg time: 79.08 s | avg iter: 160.14
+02-19 11:14 root         INFO     Synthesis route found!
+02-19 11:14 root         INFO     Final search status | success value | iter: 1.1181592741574353 | 1.0001179275515162 | 4
+02-19 11:14 root         INFO     Succ: 19/23/190 | avg time: 75.68 s | avg iter: 153.35
+02-19 11:14 root         INFO     Synthesis route found!
+02-19 11:14 root         INFO     Final search status | success value | iter: 9.36736302393254 | 9.117130036781964 | 109
+02-19 11:14 root         INFO     Succ: 20/24/190 | avg time: 74.35 s | avg iter: 151.50
+02-19 11:17 root         INFO     Final search status | success value | iter: 9.933202248491455 | inf | 500
+02-19 11:17 root         INFO     Succ: 20/25/190 | avg time: 77.87 s | avg iter: 165.44
+02-19 11:17 root         INFO     Synthesis route found!
+02-19 11:17 root         INFO     Final search status | success value | iter: 0.6804605196483434 | 0.15868895107289008 | 3
+02-19 11:17 root         INFO     Succ: 21/26/190 | avg time: 74.89 s | avg iter: 159.19
+02-19 11:21 root         INFO     Final search status | success value | iter: 9.313350512041248 | inf | 500
+02-19 11:21 root         INFO     Succ: 21/27/190 | avg time: 81.83 s | avg iter: 171.81
+02-19 11:24 root         INFO     Synthesis route found!
+02-19 11:24 root         INFO     Final search status | success value | iter: 10.58587281286152 | 7.387991678164131 | 362
+02-19 11:24 root         INFO     Succ: 22/28/190 | avg time: 84.53 s | avg iter: 178.61
+02-19 11:24 root         INFO     Synthesis route found!
+02-19 11:24 root         INFO     Final search status | success value | iter: 1.6148480338631237 | 0.14932369989091296 | 7
+02-19 11:24 root         INFO     Succ: 23/29/190 | avg time: 81.74 s | avg iter: 172.69
+02-19 11:25 root         INFO     Synthesis route found!
+02-19 11:25 root         INFO     Final search status | success value | iter: 5.517684772733931 | 10.941442118168865 | 62
+02-19 11:25 root         INFO     Succ: 24/30/190 | avg time: 79.97 s | avg iter: 169.00
+02-19 11:25 root         INFO     Synthesis route found!
+02-19 11:25 root         INFO     Final search status | success value | iter: 8.516443874750102 | 6.532387071116579 | 52
+02-19 11:25 root         INFO     Succ: 25/31/190 | avg time: 78.69 s | avg iter: 165.23
+02-19 11:27 root         INFO     Synthesis route found!
+02-19 11:27 root         INFO     Final search status | success value | iter: 6.945225590304087 | 9.182854124153355 | 185
+02-19 11:27 root         INFO     Succ: 26/32/190 | avg time: 79.02 s | avg iter: 165.84
+02-19 11:27 root         INFO     Synthesis route found!
+02-19 11:27 root         INFO     Final search status | success value | iter: 6.716697816906382 | 11.681505516149741 | 21
+02-19 11:27 root         INFO     Succ: 27/33/190 | avg time: 76.97 s | avg iter: 161.45
+02-19 11:30 root         INFO     Synthesis route found!
+02-19 11:30 root         INFO     Final search status | success value | iter: 7.837425628441181 | 9.825983257475968 | 215
+02-19 11:30 root         INFO     Succ: 28/34/190 | avg time: 79.81 s | avg iter: 163.03
+02-19 11:30 root         INFO     Synthesis route found!
+02-19 11:30 root         INFO     Final search status | success value | iter: 5.2462755959866785 | 5.610576892799729 | 62
+02-19 11:30 root         INFO     Succ: 29/35/190 | avg time: 78.26 s | avg iter: 160.14
+02-19 11:31 root         INFO     Synthesis route found!
+02-19 11:31 root         INFO     Final search status | success value | iter: 10.11461903684199 | 15.58589236315689 | 138
+02-19 11:31 root         INFO     Succ: 30/36/190 | avg time: 77.91 s | avg iter: 159.53
+02-19 11:32 root         INFO     Synthesis route found!
+02-19 11:32 root         INFO     Final search status | success value | iter: 7.404578154178698 | 7.493105962861211 | 14
+02-19 11:32 root         INFO     Succ: 31/37/190 | avg time: 76.05 s | avg iter: 155.59
+02-19 11:33 root         INFO     Synthesis route found!
+02-19 11:33 root         INFO     Final search status | success value | iter: 8.818041285043881 | 9.182342581856934 | 159
+02-19 11:33 root         INFO     Succ: 32/38/190 | avg time: 76.21 s | avg iter: 155.68
+02-19 11:35 root         INFO     Synthesis route found!
+02-19 11:35 root         INFO     Final search status | success value | iter: 10.515694151036644 | 10.726474851752014 | 276
+02-19 11:35 root         INFO     Succ: 33/39/190 | avg time: 77.11 s | avg iter: 158.77
+02-19 11:35 root         INFO     Synthesis route found!
+02-19 11:35 root         INFO     Final search status | success value | iter: 6.147355343992474 | 6.793249284620297 | 63
+02-19 11:35 root         INFO     Succ: 34/40/190 | avg time: 75.95 s | avg iter: 156.38
+02-19 11:38 root         INFO     Synthesis route found!
+02-19 11:38 root         INFO     Final search status | success value | iter: 7.934949592456303 | 7.3247724954411755 | 197
+02-19 11:38 root         INFO     Succ: 35/41/190 | avg time: 78.35 s | avg iter: 157.37
+02-19 11:38 root         INFO     Synthesis route found!
+02-19 11:38 root         INFO     Final search status | success value | iter: 3.8069627368711423 | 3.035669994367697 | 12
+02-19 11:38 root         INFO     Succ: 36/42/190 | avg time: 76.65 s | avg iter: 153.90
+02-19 11:38 root         INFO     Synthesis route found!
+02-19 11:38 root         INFO     Final search status | success value | iter: 0.3187755161121322 | 0.05523793695400939 | 2
+02-19 11:38 root         INFO     Succ: 37/43/190 | avg time: 74.88 s | avg iter: 150.37
+02-19 11:44 root         INFO     Synthesis route found!
+02-19 11:44 root         INFO     Final search status | success value | iter: 8.865349938348885 | 8.255172841333756 | 392
+02-19 11:44 root         INFO     Succ: 38/44/190 | avg time: 80.44 s | avg iter: 155.86
+02-19 11:44 root         INFO     Synthesis route found!
+02-19 11:44 root         INFO     Final search status | success value | iter: 6.915605329483776 | 11.880413028727137 | 14
+02-19 11:44 root         INFO     Succ: 39/45/190 | avg time: 78.84 s | avg iter: 152.71
+02-19 11:50 root         INFO     Final search status | success value | iter: 9.264716695915148 | inf | 500
+02-19 11:50 root         INFO     Succ: 39/46/190 | avg time: 84.74 s | avg iter: 160.26
+02-19 11:55 root         INFO     Final search status | success value | iter: 8.573942785114692 | inf | 500
+02-19 11:55 root         INFO     Succ: 39/47/190 | avg time: 89.18 s | avg iter: 167.49
+02-19 11:58 root         INFO     Final search status | success value | iter: 7.439003954682116 | inf | 500
+02-19 11:58 root         INFO     Succ: 39/48/190 | avg time: 91.86 s | avg iter: 174.42
+02-19 11:58 root         INFO     Expansion fails on Cn1oc(=O)nc1SSc1nc(=O)on1C!
+02-19 11:58 root         INFO     Expansion fails on Cn1oc(=O)nc1S(=O)[O-]!
+02-19 11:58 root         INFO     Expansion fails on Cn1oc(=O)nc1SC#N!
+02-19 11:58 root         INFO     Expansion fails on Cn1oc(=O)nc1SC(=O)Cl!
+02-19 11:59 root         INFO     Expansion fails on Cn1oc(=O)nc1SSc1nc(=O)on1C!
+02-19 11:59 root         INFO     Expansion fails on Cn1oc(=O)nc1SSc1nc(=O)on1C!
+02-19 11:59 root         INFO     Synthesis route found!
+02-19 11:59 root         INFO     Final search status | success value | iter: 7.188219861173362 | 6.987341285986651 | 213
+02-19 11:59 root         INFO     Succ: 40/49/190 | avg time: 91.52 s | avg iter: 175.20
+02-19 12:01 root         INFO     Synthesis route found!
+02-19 12:01 root         INFO     Final search status | success value | iter: 9.127044044362343 | 7.3072938889285926 | 132
+02-19 12:01 root         INFO     Succ: 41/50/190 | avg time: 91.56 s | avg iter: 174.34
+02-19 12:02 root         INFO     Synthesis route found!
+02-19 12:02 root         INFO     Final search status | success value | iter: 6.742861643801467 | 12.146502175736181 | 158
+02-19 12:02 root         INFO     Succ: 42/51/190 | avg time: 90.95 s | avg iter: 174.02
+02-19 12:02 root         INFO     Synthesis route found!
+02-19 12:02 root         INFO     Final search status | success value | iter: 1.5025895349856384 | 1.3985585365189126 | 9
+02-19 12:02 root         INFO     Succ: 43/52/190 | avg time: 89.29 s | avg iter: 170.85
+02-19 12:03 root         INFO     Synthesis route found!
+02-19 12:03 root         INFO     Final search status | success value | iter: 5.7488100215774445 | 5.563441000364428 | 114
+02-19 12:03 root         INFO     Succ: 44/53/190 | avg time: 88.51 s | avg iter: 169.77
+02-19 12:03 root         INFO     Synthesis route found!
+02-19 12:03 root         INFO     Final search status | success value | iter: 0.9104225299860254 | 5.000990559960502 | 3
+02-19 12:03 root         INFO     Succ: 45/54/190 | avg time: 86.93 s | avg iter: 166.69
+02-19 12:03 root         INFO     Synthesis route found!
+02-19 12:03 root         INFO     Final search status | success value | iter: 5.517696760442503 | 10.941454105877437 | 63
+02-19 12:03 root         INFO     Succ: 46/55/190 | avg time: 85.87 s | avg iter: 164.80
+02-19 12:04 root         INFO     Synthesis route found!
+02-19 12:04 root         INFO     Final search status | success value | iter: 7.341991596855138 | 6.9088115754072685 | 8
+02-19 12:04 root         INFO     Succ: 47/56/190 | avg time: 84.50 s | avg iter: 162.00
+02-19 12:05 root         INFO     Synthesis route found!
+02-19 12:05 root         INFO     Final search status | success value | iter: 7.663850020036753 | 6.53385690460942 | 73
+02-19 12:05 root         INFO     Succ: 48/57/190 | avg time: 84.23 s | avg iter: 160.44
+02-19 12:08 root         INFO     Final search status | success value | iter: 10.439872154014706 | inf | 500
+02-19 12:08 root         INFO     Succ: 48/58/190 | avg time: 86.21 s | avg iter: 166.29
+02-19 12:08 root         INFO     Expansion fails on C[Mg]Br!
+02-19 12:08 root         INFO     Synthesis route found!
+02-19 12:08 root         INFO     Final search status | success value | iter: 8.482054031897604 | 7.612761598330087 | 17
+02-19 12:08 root         INFO     Succ: 49/59/190 | avg time: 84.85 s | avg iter: 163.76
+02-19 12:08 root         INFO     Synthesis route found!
+02-19 12:08 root         INFO     Final search status | success value | iter: 1.7561813233210195 | 0.29065698934880857 | 8
+02-19 12:08 root         INFO     Succ: 50/60/190 | avg time: 83.49 s | avg iter: 161.17
+02-19 12:08 root         INFO     Synthesis route found!
+02-19 12:08 root         INFO     Final search status | success value | iter: 5.9477825291124935 | 12.681281766448626 | 46
+02-19 12:08 root         INFO     Succ: 51/61/190 | avg time: 82.24 s | avg iter: 159.28
+02-19 12:09 root         INFO     Synthesis route found!
+02-19 12:09 root         INFO     Final search status | success value | iter: 7.761854706391163 | 7.151677609376035 | 154
+02-19 12:09 root         INFO     Succ: 52/62/190 | avg time: 81.89 s | avg iter: 159.19
+02-19 12:09 root         INFO     Synthesis route found!
+02-19 12:09 root         INFO     Final search status | success value | iter: 5.883448544130104 | 5.558977928522737 | 23
+02-19 12:09 root         INFO     Succ: 53/63/190 | avg time: 80.68 s | avg iter: 157.03
+02-19 12:11 root         INFO     Synthesis route found!
+02-19 12:11 root         INFO     Final search status | success value | iter: 9.4163730495151 | 9.166140062364526 | 299
+02-19 12:11 root         INFO     Succ: 54/64/190 | avg time: 81.28 s | avg iter: 159.25
+02-19 12:12 root         INFO     Synthesis route found!
+02-19 12:12 root         INFO     Final search status | success value | iter: 8.86483167983004 | 15.333302693770824 | 223
+02-19 12:12 root         INFO     Succ: 55/65/190 | avg time: 80.84 s | avg iter: 160.23
+02-19 12:15 root         INFO     Synthesis route found!
+02-19 12:15 root         INFO     Final search status | success value | iter: 8.233740418927642 | 7.535234439683654 | 418
+02-19 12:15 root         INFO     Succ: 56/66/190 | avg time: 81.75 s | avg iter: 164.14
+02-19 12:15 root         INFO     Synthesis route found!
+02-19 12:15 root         INFO     Final search status | success value | iter: 7.024698727764104 | 6.908198973110007 | 36
+02-19 12:15 root         INFO     Succ: 57/67/190 | avg time: 80.69 s | avg iter: 162.22
+02-19 12:15 root         INFO     Synthesis route found!
+02-19 12:15 root         INFO     Final search status | success value | iter: 9.705545300767367 | 14.273236218537964 | 78
+02-19 12:15 root         INFO     Succ: 58/68/190 | avg time: 79.70 s | avg iter: 160.99
+02-19 12:15 root         INFO     Synthesis route found!
+02-19 12:15 root         INFO     Final search status | success value | iter: 7.758414123716042 | 9.534259329551123 | 110
+02-19 12:15 root         INFO     Succ: 59/69/190 | avg time: 78.88 s | avg iter: 160.25
+02-19 12:17 root         INFO     Synthesis route found!
+02-19 12:17 root         INFO     Final search status | success value | iter: 8.015640026430798 | 7.405462929415669 | 198
+02-19 12:17 root         INFO     Succ: 60/70/190 | avg time: 78.92 s | avg iter: 160.79
+02-19 12:17 root         INFO     Synthesis route found!
+02-19 12:17 root         INFO     Final search status | success value | iter: 9.437960290349935 | 8.714301953295037 | 172
+02-19 12:17 root         INFO     Succ: 61/71/190 | avg time: 78.29 s | avg iter: 160.94
+02-19 12:18 root         INFO     Synthesis route found!
+02-19 12:18 root         INFO     Final search status | success value | iter: 7.207393103279088 | 12.03642951431339 | 73
+02-19 12:18 root         INFO     Succ: 62/72/190 | avg time: 77.40 s | avg iter: 159.72
+02-19 12:18 root         INFO     Synthesis route found!
+02-19 12:18 root         INFO     Final search status | success value | iter: 6.751486048324696 | 13.122863241693583 | 35
+02-19 12:18 root         INFO     Succ: 63/73/190 | avg time: 76.46 s | avg iter: 158.01
+02-19 12:18 root         INFO     Synthesis route found!
+02-19 12:18 root         INFO     Final search status | success value | iter: 8.973509868662198 | 8.614258046726615 | 36
+02-19 12:18 root         INFO     Succ: 64/74/190 | avg time: 75.60 s | avg iter: 156.36
+02-19 12:18 root         INFO     Expansion fails on C=C1CC2(CC[C@]1(C)[C@H]1CC[C@]3(C)[C@@H](N(C=O)C4CC4)CC[C@H]3[C@@H]1CC#C[Si](C)(C)C)OCCO2!
+02-19 12:19 root         INFO     Expansion fails on C=C1CC2(CC[C@]1(C)[C@H]1CC[C@]3(C)[C@@H](N(C=O)C4CC4)CC[C@H]3[C@@H]1CC#C[Si](C)(C)C)OCCO2!
+02-19 12:19 root         INFO     Expansion fails on C=C1CC2(CC[C@]1(C)[C@H]1CC[C@]3(C)[C@@H](N(C=O)C4CC4)CC[C@H]3[C@@H]1CC#C[Si](C)(C)C)OCCO2!
+02-19 12:20 root         INFO     Final search status | success value | iter: 14.628034627887606 | inf | 500
+02-19 12:20 root         INFO     Succ: 64/75/190 | avg time: 75.90 s | avg iter: 160.95
+02-19 12:20 root         INFO     Synthesis route found!
+02-19 12:20 root         INFO     Final search status | success value | iter: 7.573298596776937 | 13.815510557964274 | 123
+02-19 12:20 root         INFO     Succ: 65/76/190 | avg time: 75.24 s | avg iter: 160.45
+02-19 12:20 root         INFO     Synthesis route found!
+02-19 12:20 root         INFO     Final search status | success value | iter: 6.241736225299457 | 12.97523546263559 | 34
+02-19 12:20 root         INFO     Succ: 66/77/190 | avg time: 74.34 s | avg iter: 158.81
+02-19 12:20 root         INFO     Synthesis route found!
+02-19 12:20 root         INFO     Final search status | success value | iter: 0.49645820487976144 | 0.17927039333671602 | 2
+02-19 12:20 root         INFO     Succ: 67/78/190 | avg time: 73.39 s | avg iter: 156.79
+02-19 12:20 root         INFO     Synthesis route found!
+02-19 12:20 root         INFO     Final search status | success value | iter: 2.4826247246365973 | 4.181746503688044 | 3
+02-19 12:20 root         INFO     Succ: 68/79/190 | avg time: 72.48 s | avg iter: 154.85
+02-19 12:23 root         INFO     Final search status | success value | iter: 9.701978860256897 | inf | 500
+02-19 12:23 root         INFO     Succ: 68/80/190 | avg time: 73.66 s | avg iter: 159.16
+02-19 12:23 root         INFO     Synthesis route found!
+02-19 12:23 root         INFO     Final search status | success value | iter: 7.047045819437254 | 13.205687121463976 | 118
+02-19 12:23 root         INFO     Succ: 69/81/190 | avg time: 73.00 s | avg iter: 158.65
+02-19 12:29 root         INFO     Final search status | success value | iter: 15.146883023280154 | inf | 500
+02-19 12:29 root         INFO     Succ: 69/82/190 | avg time: 76.48 s | avg iter: 162.82
+02-19 12:31 root         INFO     Synthesis route found!
+02-19 12:31 root         INFO     Final search status | success value | iter: 8.116110702743718 | 6.907909577455964 | 242
+02-19 12:31 root         INFO     Succ: 70/83/190 | avg time: 76.89 s | avg iter: 163.77
+02-19 12:32 root         INFO     Expansion fails on C[C@@H](n1ccn(C(=O)OC(C)(C)C)c1=O)[C@@]1(c2cc(Cl)c(F)cc2F)CO1!
+02-19 12:32 root         INFO     Expansion fails on C[C@@H](n1ccn(C(=O)OC(C)(C)C)c1=O)[C@@]1(c2cc(Cl)c(F)cc2F)CO1!
+02-19 12:33 root         INFO     Expansion fails on C[C@@H](n1ccn(C(=O)OC(C)(C)C)c1=O)[C@@]1(c2ccc(F)c(Cl)c2F)CO1!
+02-19 12:33 root         INFO     Expansion fails on C[C@@H](n1ccn(C(=O)OC(C)(C)C)c1=O)[C@@]1(c2ccc(F)c(Cl)c2F)CO1!
+02-19 12:33 root         INFO     Expansion fails on C[C@@H](n1ccn(C(=O)OC(C)(C)C)c1=O)[C@@]1(c2cc(Cl)c(F)cc2F)CO1!
+02-19 12:34 root         INFO     Expansion fails on C[C@@H](n1ccn(C(=O)OC(C)(C)C)c1=O)[C@@]1(c2ccc(F)c(Cl)c2F)CO1!
+02-19 12:34 root         INFO     Expansion fails on C[C@@H](n1ccn(C(=O)OC(C)(C)C)c1=O)[C@@]1(c2ccc(F)c(Cl)c2F)CO1!
+02-19 12:34 root         INFO     Expansion fails on C[C@@H](n1ccn(C(=O)OC(C)(C)C)c1=O)[C@@]1(c2cc(Cl)c(F)cc2F)CO1!
+02-19 12:34 root         INFO     Expansion fails on C[C@@H](n1ccn(C(=O)OC(C)(C)C)c1=O)[C@@]1(c2cc(Cl)c(F)cc2F)CO1!
+02-19 12:35 root         INFO     Final search status | success value | iter: 10.877414167424966 | inf | 500
+02-19 12:35 root         INFO     Succ: 70/84/190 | avg time: 78.48 s | avg iter: 167.77
+02-19 12:35 root         INFO     Synthesis route found!
+02-19 12:35 root         INFO     Final search status | success value | iter: 6.145626302086715 | 10.153772373904953 | 69
+02-19 12:35 root         INFO     Succ: 71/85/190 | avg time: 78.16 s | avg iter: 166.61
+02-19 12:36 root         INFO     Synthesis route found!
+02-19 12:36 root         INFO     Final search status | success value | iter: 8.507154593446273 | 13.72067404201216 | 31
+02-19 12:36 root         INFO     Succ: 72/86/190 | avg time: 77.43 s | avg iter: 165.03
+02-19 12:36 root         INFO     Synthesis route found!
+02-19 12:36 root         INFO     Final search status | success value | iter: 7.146763406470664 | 12.554105966922167 | 40
+02-19 12:36 root         INFO     Succ: 73/87/190 | avg time: 76.87 s | avg iter: 163.60
+02-19 12:39 root         INFO     Synthesis route found!
+02-19 12:39 root         INFO     Final search status | success value | iter: 10.670916686628711 | 16.74038812876926 | 328
+02-19 12:39 root         INFO     Succ: 74/88/190 | avg time: 78.01 s | avg iter: 165.47
+02-19 12:39 root         INFO     Expansion fails on CC1=CC=CC(C)(C(F)(F)F)C1!
+02-19 12:39 root         INFO     Synthesis route found!
+02-19 12:39 root         INFO     Final search status | success value | iter: 2.5839559691109786 | 0.7425033848323189 | 9
+02-19 12:39 root         INFO     Succ: 75/89/190 | avg time: 77.17 s | avg iter: 163.71
+02-19 12:41 root         INFO     Synthesis route found!
+02-19 12:41 root         INFO     Final search status | success value | iter: 8.818004593821035 | 9.182305890634087 | 236
+02-19 12:41 root         INFO     Succ: 76/90/190 | avg time: 77.53 s | avg iter: 164.51
+02-19 12:44 root         INFO     Synthesis route found!
+02-19 12:44 root         INFO     Final search status | success value | iter: 10.563330783156083 | 8.924089266926831 | 406
+02-19 12:44 root         INFO     Succ: 77/91/190 | avg time: 78.50 s | avg iter: 167.16
+02-19 12:44 root         INFO     Synthesis route found!
+02-19 12:44 root         INFO     Final search status | success value | iter: 1.3206807113971488 | 0.9619496117925282 | 6
+02-19 12:44 root         INFO     Succ: 78/92/190 | avg time: 77.70 s | avg iter: 165.41
+02-19 12:44 root         INFO     Synthesis route found!
+02-19 12:44 root         INFO     Final search status | success value | iter: 1.5194830125633523 | 1.9179717666847647 | 4
+02-19 12:44 root         INFO     Succ: 79/93/190 | avg time: 76.89 s | avg iter: 163.68
+02-19 12:44 root         INFO     Synthesis route found!
+02-19 12:44 root         INFO     Final search status | success value | iter: 0.46881014441861424 | 0.10300138599113842 | 4
+02-19 12:44 root         INFO     Succ: 80/94/190 | avg time: 76.09 s | avg iter: 161.98
+02-19 12:50 root         INFO     Final search status | success value | iter: 9.909836195008031 | inf | 500
+02-19 12:50 root         INFO     Succ: 80/95/190 | avg time: 79.28 s | avg iter: 165.54
+02-19 12:50 root         INFO     Synthesis route found!
+02-19 12:50 root         INFO     Final search status | success value | iter: 6.616969218684228 | 12.988346412053115 | 26
+02-19 12:50 root         INFO     Succ: 81/96/190 | avg time: 78.60 s | avg iter: 164.08
+02-19 12:52 root         INFO     Synthesis route found!
+02-19 12:52 root         INFO     Final search status | success value | iter: 7.539387147105472 | 12.354448345779552 | 169
+02-19 12:52 root         INFO     Succ: 82/97/190 | avg time: 78.56 s | avg iter: 164.13
+02-19 12:54 root         INFO     Synthesis route found!
+02-19 12:54 root         INFO     Final search status | success value | iter: 8.796633987010283 | 7.563324534948468 | 225
+02-19 12:54 root         INFO     Succ: 83/98/190 | avg time: 79.05 s | avg iter: 164.76
+02-19 12:54 root         INFO     Synthesis route found!
+02-19 12:54 root         INFO     Final search status | success value | iter: 6.095165843219961 | 12.613827007898507 | 43
+02-19 12:54 root         INFO     Succ: 84/99/190 | avg time: 78.56 s | avg iter: 163.53
+02-19 12:55 root         INFO     Synthesis route found!
+02-19 12:55 root         INFO     Final search status | success value | iter: 8.576332094095704 | 13.943666666257181 | 109
+02-19 12:55 root         INFO     Succ: 85/100/190 | avg time: 78.18 s | avg iter: 162.98
+02-19 12:56 root         INFO     Synthesis route found!
+02-19 12:56 root         INFO     Final search status | success value | iter: 7.116154863187242 | 10.057556417158482 | 184
+02-19 12:56 root         INFO     Succ: 86/101/190 | avg time: 78.24 s | avg iter: 163.19
+02-19 13:01 root         INFO     Synthesis route found!
+02-19 13:01 root         INFO     Final search status | success value | iter: 8.79964975836911 | 8.189472661353983 | 374
+02-19 13:01 root         INFO     Succ: 87/102/190 | avg time: 80.50 s | avg iter: 165.25
+02-19 13:07 root         INFO     Final search status | success value | iter: 10.32045547735725 | inf | 500
+02-19 13:07 root         INFO     Succ: 87/103/190 | avg time: 82.72 s | avg iter: 168.50
+02-19 13:11 root         INFO     Final search status | success value | iter: 12.026173268627534 | inf | 500
+02-19 13:11 root         INFO     Succ: 87/104/190 | avg time: 84.51 s | avg iter: 171.69
+02-19 13:12 root         INFO     Synthesis route found!
+02-19 13:12 root         INFO     Final search status | success value | iter: 8.577171442228021 | 13.944506014389496 | 130
+02-19 13:12 root         INFO     Succ: 88/105/190 | avg time: 84.22 s | avg iter: 171.30
+02-19 13:12 root         INFO     Synthesis route found!
+02-19 13:12 root         INFO     Final search status | success value | iter: 5.65756179513526 | 9.60276700433241 | 29
+02-19 13:12 root         INFO     Succ: 89/106/190 | avg time: 83.62 s | avg iter: 169.95
+02-19 13:13 root         INFO     Synthesis route found!
+02-19 13:13 root         INFO     Final search status | success value | iter: 6.810356575173606 | 8.671364233962832 | 28
+02-19 13:13 root         INFO     Succ: 90/107/190 | avg time: 83.01 s | avg iter: 168.63
+02-19 13:13 root         INFO     Synthesis route found!
+02-19 13:13 root         INFO     Final search status | success value | iter: 1.1349776675193006 | 0.7762465679146802 | 6
+02-19 13:13 root         INFO     Succ: 91/108/190 | avg time: 82.27 s | avg iter: 167.12
+02-19 13:13 root         INFO     Synthesis route found!
+02-19 13:13 root         INFO     Final search status | success value | iter: 5.2122127609058255 | 4.9207127776349795 | 11
+02-19 13:13 root         INFO     Succ: 92/109/190 | avg time: 81.57 s | avg iter: 165.69
+02-19 13:13 root         INFO     Synthesis route found!
+02-19 13:13 root         INFO     Final search status | success value | iter: 7.0186279267333465 | 5.880623125986541 | 26
+02-19 13:13 root         INFO     Succ: 93/110/190 | avg time: 80.93 s | avg iter: 164.42
+02-19 13:14 root         INFO     Synthesis route found!
+02-19 13:14 root         INFO     Final search status | success value | iter: 8.724351405740547 | 14.091685977902022 | 142
+02-19 13:14 root         INFO     Succ: 94/111/190 | avg time: 80.69 s | avg iter: 164.22
+02-19 13:14 root         INFO     Synthesis route found!
+02-19 13:14 root         INFO     Final search status | success value | iter: 2.5934319702814803 | 1.8221392277780353 | 7
+02-19 13:14 root         INFO     Succ: 95/112/190 | avg time: 79.99 s | avg iter: 162.81
+02-19 13:15 root         INFO     Synthesis route found!
+02-19 13:15 root         INFO     Final search status | success value | iter: 6.4540226251665835 | 7.099916565794408 | 73
+02-19 13:15 root         INFO     Succ: 96/113/190 | avg time: 79.61 s | avg iter: 162.02
+02-19 13:15 root         INFO     Synthesis route found!
+02-19 13:15 root         INFO     Final search status | success value | iter: 0.5399266911235643 | 0.3117478771726679 | 7
+02-19 13:15 root         INFO     Succ: 97/114/190 | avg time: 78.93 s | avg iter: 160.66
+02-19 13:16 root         INFO     Synthesis route found!
+02-19 13:16 root         INFO     Final search status | success value | iter: 12.774548405694205 | 12.485214265557936 | 149
+02-19 13:16 root         INFO     Succ: 98/115/190 | avg time: 78.85 s | avg iter: 160.56
+02-19 13:19 root         INFO     Final search status | success value | iter: 8.793603319584754 | inf | 500
+02-19 13:19 root         INFO     Succ: 98/116/190 | avg time: 80.04 s | avg iter: 163.48
+02-19 13:19 root         INFO     Expansion fails on Cn1oc(=O)nc1SSc1nc(=O)on1C!
+02-19 13:19 root         INFO     Expansion fails on Cn1oc(=O)nc1S(=O)[O-]!
+02-19 13:20 root         INFO     Expansion fails on Cn1oc(=O)nc1SC#N!
+02-19 13:20 root         INFO     Expansion fails on Cn1oc(=O)nc1SC(=O)Cl!
+02-19 13:20 root         INFO     Expansion fails on Cn1oc(=O)nc1SSc1nc(=O)on1C!
+02-19 13:21 root         INFO     Expansion fails on Cn1oc(=O)nc1SSc1nc(=O)on1C!
+02-19 13:21 root         INFO     Synthesis route found!
+02-19 13:21 root         INFO     Final search status | success value | iter: 7.168810514940141 | 6.96793193975343 | 195
+02-19 13:21 root         INFO     Succ: 99/117/190 | avg time: 80.02 s | avg iter: 163.75
+02-19 13:21 root         INFO     Synthesis route found!
+02-19 13:21 root         INFO     Final search status | success value | iter: 7.776534156742653 | 7.254172444705279 | 21
+02-19 13:21 root         INFO     Succ: 100/118/190 | avg time: 79.47 s | avg iter: 162.54
+02-19 13:28 root         INFO     Final search status | success value | iter: 10.206080818262908 | inf | 500
+02-19 13:28 root         INFO     Succ: 100/119/190 | avg time: 82.36 s | avg iter: 165.38
+02-19 13:28 root         INFO     Synthesis route found!
+02-19 13:28 root         INFO     Final search status | success value | iter: 10.594224293968262 | 15.161915211738858 | 51
+02-19 13:28 root         INFO     Succ: 101/120/190 | avg time: 81.86 s | avg iter: 164.43
+02-19 13:28 root         INFO     Synthesis route found!
+02-19 13:28 root         INFO     Final search status | success value | iter: 0.8509127735818502 | 7.666692594597659 | 6
+02-19 13:28 root         INFO     Succ: 102/121/190 | avg time: 81.23 s | avg iter: 163.12
+02-19 13:29 root         INFO     Synthesis route found!
+02-19 13:29 root         INFO     Final search status | success value | iter: 5.87828752181618 | 5.779990949502344 | 19
+02-19 13:29 root         INFO     Succ: 103/122/190 | avg time: 80.63 s | avg iter: 161.93
+02-19 13:29 root         INFO     Synthesis route found!
+02-19 13:29 root         INFO     Final search status | success value | iter: 7.146637472548796 | 12.553980033000299 | 40
+02-19 13:29 root         INFO     Succ: 104/123/190 | avg time: 80.18 s | avg iter: 160.94
+02-19 13:37 root         INFO     Final search status | success value | iter: 9.502275158403425 | inf | 500
+02-19 13:37 root         INFO     Succ: 104/124/190 | avg time: 83.15 s | avg iter: 163.68
+02-19 13:37 root         INFO     Synthesis route found!
+02-19 13:37 root         INFO     Final search status | success value | iter: 5.964030207260576 | 12.697529444596709 | 48
+02-19 13:37 root         INFO     Succ: 105/125/190 | avg time: 82.64 s | avg iter: 162.75
+02-19 13:40 root         INFO     Final search status | success value | iter: 8.63395074899229 | inf | 500
+02-19 13:40 root         INFO     Succ: 105/126/190 | avg time: 83.73 s | avg iter: 165.43
+02-19 13:45 root         INFO     Synthesis route found!
+02-19 13:45 root         INFO     Final search status | success value | iter: 9.548140722303174 | 8.937963625288045 | 346
+02-19 13:45 root         INFO     Succ: 106/127/190 | avg time: 85.42 s | avg iter: 166.85
+02-19 13:46 root         INFO     Synthesis route found!
+02-19 13:46 root         INFO     Final search status | success value | iter: 4.030036477850132 | 3.809326341272601 | 14
+02-19 13:46 root         INFO     Succ: 107/128/190 | avg time: 84.80 s | avg iter: 165.66
+02-19 13:46 root         INFO     Synthesis route found!
+02-19 13:46 root         INFO     Final search status | success value | iter: 1.57741885003896 | 1.2186877504343396 | 6
+02-19 13:46 root         INFO     Succ: 108/129/190 | avg time: 84.16 s | avg iter: 164.42
+02-19 13:46 root         INFO     Synthesis route found!
+02-19 13:46 root         INFO     Final search status | success value | iter: 7.2497784810855785 | 9.463558760264146 | 92
+02-19 13:46 root         INFO     Succ: 109/130/190 | avg time: 83.80 s | avg iter: 163.86
+02-19 13:49 root         INFO     Synthesis route found!
+02-19 13:49 root         INFO     Final search status | success value | iter: 8.49622586013911 | 7.288024734851354 | 335
+02-19 13:49 root         INFO     Succ: 110/131/190 | avg time: 84.43 s | avg iter: 165.17
+02-19 13:51 root         INFO     Synthesis route found!
+02-19 13:51 root         INFO     Final search status | success value | iter: 9.908083145804065 | 10.118863846519439 | 255
+02-19 13:51 root         INFO     Succ: 111/132/190 | avg time: 84.57 s | avg iter: 165.85
+02-19 13:52 root         INFO     Synthesis route found!
+02-19 13:52 root         INFO     Final search status | success value | iter: 5.646293615589855 | 5.460924594376838 | 100
+02-19 13:52 root         INFO     Succ: 112/133/190 | avg time: 84.32 s | avg iter: 165.35
+02-19 13:52 root         INFO     Synthesis route found!
+02-19 13:52 root         INFO     Final search status | success value | iter: 1.6150253371852272 | 0.14950100321301635 | 8
+02-19 13:52 root         INFO     Succ: 113/134/190 | avg time: 83.72 s | avg iter: 164.18
+02-19 13:55 root         INFO     Synthesis route found!
+02-19 13:55 root         INFO     Final search status | success value | iter: 10.624231201466824 | 8.98498968523757 | 456
+02-19 13:55 root         INFO     Succ: 114/135/190 | avg time: 84.56 s | avg iter: 166.34
+02-19 13:55 root         INFO     Synthesis route found!
+02-19 13:55 root         INFO     Final search status | success value | iter: 7.050054931666608 | 7.007634898033316 | 45
+02-19 13:55 root         INFO     Succ: 115/136/190 | avg time: 84.09 s | avg iter: 165.45
+02-19 13:55 root         INFO     Synthesis route found!
+02-19 13:55 root         INFO     Final search status | success value | iter: 10.19827403966329 | 11.675772323447752 | 2
+02-19 13:55 root         INFO     Succ: 116/137/190 | avg time: 83.49 s | avg iter: 164.26
+02-19 13:55 root         INFO     Synthesis route found!
+02-19 13:55 root         INFO     Final search status | success value | iter: 6.834089617750186 | 13.59770019775485 | 11
+02-19 13:55 root         INFO     Succ: 117/138/190 | avg time: 82.96 s | avg iter: 163.14
+02-19 13:56 root         INFO     Synthesis route found!
+02-19 13:56 root         INFO     Final search status | success value | iter: 2.482286289050725 | 4.181408068102171 | 2
+02-19 13:56 root         INFO     Succ: 118/139/190 | avg time: 82.39 s | avg iter: 161.99
+02-19 13:58 root         INFO     Synthesis route found!
+02-19 13:58 root         INFO     Final search status | success value | iter: 9.588420820532063 | 9.338187833381488 | 179
+02-19 13:58 root         INFO     Succ: 119/140/190 | avg time: 82.87 s | avg iter: 162.11
+02-19 13:58 root         INFO     Synthesis route found!
+02-19 13:58 root         INFO     Final search status | success value | iter: 8.518355757140123 | 8.606883565822635 | 21
+02-19 13:58 root         INFO     Succ: 120/141/190 | avg time: 82.38 s | avg iter: 161.11
+02-19 14:01 root         INFO     Synthesis route found!
+02-19 14:01 root         INFO     Final search status | success value | iter: 7.40436904763258 | 7.122860454328231 | 368
+02-19 14:01 root         INFO     Succ: 121/142/190 | avg time: 82.83 s | avg iter: 162.56
+02-19 14:01 root         INFO     Synthesis route found!
+02-19 14:01 root         INFO     Final search status | success value | iter: 0.31896914408486265 | 0.0554315649267399 | 3
+02-19 14:01 root         INFO     Succ: 122/143/190 | avg time: 82.26 s | avg iter: 161.45
+02-19 14:03 root         INFO     Synthesis route found!
+02-19 14:03 root         INFO     Final search status | success value | iter: 8.503288544864079 | 10.46113606313649 | 222
+02-19 14:03 root         INFO     Succ: 123/144/190 | avg time: 82.48 s | avg iter: 161.87
+02-19 14:03 root         INFO     Synthesis route found!
+02-19 14:03 root         INFO     Final search status | success value | iter: 0.28045711834664255 | 0.12211723139642142 | 4
+02-19 14:03 root         INFO     Succ: 124/145/190 | avg time: 81.92 s | avg iter: 160.78
+02-19 14:03 root         INFO     Synthesis route found!
+02-19 14:03 root         INFO     Final search status | success value | iter: 7.065031780937959 | 6.961000782471234 | 9
+02-19 14:03 root         INFO     Succ: 125/146/190 | avg time: 81.38 s | avg iter: 159.74
+02-19 14:03 root         INFO     Synthesis route found!
+02-19 14:03 root         INFO     Final search status | success value | iter: 1.6146161644281722 | 0.14909183045596147 | 6
+02-19 14:03 root         INFO     Succ: 126/147/190 | avg time: 80.85 s | avg iter: 158.69
+02-19 14:05 root         INFO     Synthesis route found!
+02-19 14:05 root         INFO     Final search status | success value | iter: 8.49126002576868 | 8.85556132258173 | 288
+02-19 14:05 root         INFO     Succ: 127/148/190 | avg time: 81.28 s | avg iter: 159.57
+02-19 14:05 root         INFO     Synthesis route found!
+02-19 14:05 root         INFO     Final search status | success value | iter: 0.36117950631777956 | 0.0024484067131589804 | 5
+02-19 14:05 root         INFO     Succ: 128/149/190 | avg time: 80.75 s | avg iter: 158.53
+02-19 14:07 root         INFO     Synthesis route found!
+02-19 14:07 root         INFO     Final search status | success value | iter: 9.661661982877614 | 10.197256866832166 | 192
+02-19 14:07 root         INFO     Succ: 129/150/190 | avg time: 80.79 s | avg iter: 158.75
+02-19 14:08 root         INFO     Synthesis route found!
+02-19 14:08 root         INFO     Final search status | success value | iter: 8.217712520045794 | 7.607535423030665 | 228
+02-19 14:08 root         INFO     Succ: 130/151/190 | avg time: 80.83 s | avg iter: 159.21
+02-19 14:08 root         INFO     Synthesis route found!
+02-19 14:08 root         INFO     Final search status | success value | iter: 1.6167005715865757 | 0.15117623761436474 | 8
+02-19 14:08 root         INFO     Succ: 131/152/190 | avg time: 80.32 s | avg iter: 158.22
+02-19 14:11 root         INFO     Synthesis route found!
+02-19 14:11 root         INFO     Final search status | success value | iter: 8.657624041261418 | 8.047446944246287 | 271
+02-19 14:11 root         INFO     Succ: 132/153/190 | avg time: 81.08 s | avg iter: 158.95
+02-19 14:11 root         INFO     Synthesis route found!
+02-19 14:11 root         INFO     Final search status | success value | iter: 1.9790121033196495 | 1.8609707567137304 | 4
+02-19 14:11 root         INFO     Succ: 133/154/190 | avg time: 80.57 s | avg iter: 157.95
+02-19 14:11 root         INFO     Synthesis route found!
+02-19 14:11 root         INFO     Final search status | success value | iter: 5.2121468867887675 | 4.9206469035179214 | 9
+02-19 14:11 root         INFO     Succ: 134/155/190 | avg time: 80.07 s | avg iter: 156.99
+02-19 14:12 root         INFO     Synthesis route found!
+02-19 14:12 root         INFO     Final search status | success value | iter: 1.883208456531846 | 0.9929878851785419 | 6
+02-19 14:12 root         INFO     Succ: 135/156/190 | avg time: 79.58 s | avg iter: 156.02
+02-19 14:13 root         INFO     Final search status | success value | iter: 8.997393947971592 | inf | 500
+02-19 14:13 root         INFO     Succ: 135/157/190 | avg time: 79.70 s | avg iter: 158.21
+02-19 14:14 root         INFO     Synthesis route found!
+02-19 14:14 root         INFO     Final search status | success value | iter: 7.762580937306699 | 7.15240384029157 | 155
+02-19 14:14 root         INFO     Succ: 136/158/190 | avg time: 79.53 s | avg iter: 158.19
+02-19 14:15 root         INFO     Synthesis route found!
+02-19 14:15 root         INFO     Final search status | success value | iter: 8.818317189918654 | 9.182618486731705 | 179
+02-19 14:15 root         INFO     Succ: 137/159/190 | avg time: 79.28 s | avg iter: 158.32
+02-19 14:16 root         INFO     Final search status | success value | iter: 8.881149774689277 | inf | 500
+02-19 14:16 root         INFO     Succ: 137/160/190 | avg time: 79.36 s | avg iter: 160.46
+02-19 14:18 root         INFO     Synthesis route found!
+02-19 14:18 root         INFO     Final search status | success value | iter: 9.251329339123311 | 9.001096351972738 | 298
+02-19 14:18 root         INFO     Succ: 138/161/190 | avg time: 79.54 s | avg iter: 161.31
+02-19 14:18 root         INFO     Synthesis route found!
+02-19 14:18 root         INFO     Final search status | success value | iter: 3.8428716645088565 | 7.593805975578465 | 8
+02-19 14:18 root         INFO     Succ: 139/162/190 | avg time: 79.06 s | avg iter: 160.36
+02-19 14:28 root         INFO     Final search status | success value | iter: 6.76148643005231 | inf | 500
+02-19 14:28 root         INFO     Succ: 139/163/190 | avg time: 82.32 s | avg iter: 162.45
+02-19 14:29 root         INFO     Synthesis route found!
+02-19 14:29 root         INFO     Final search status | success value | iter: 7.313722500321245 | 7.0579910196831 | 152
+02-19 14:29 root         INFO     Succ: 140/164/190 | avg time: 82.24 s | avg iter: 162.38
+02-19 14:31 root         INFO     Synthesis route found!
+02-19 14:31 root         INFO     Final search status | success value | iter: 7.4043084977029405 | 7.122799904398592 | 354
+02-19 14:31 root         INFO     Succ: 141/165/190 | avg time: 82.26 s | avg iter: 163.55
+02-19 14:32 root         INFO     Synthesis route found!
+02-19 14:32 root         INFO     Final search status | success value | iter: 7.520982705987905 | 6.9246021828342 | 173
+02-19 14:32 root         INFO     Succ: 142/166/190 | avg time: 82.05 s | avg iter: 163.60
+02-19 14:32 root         INFO     Synthesis route found!
+02-19 14:32 root         INFO     Final search status | success value | iter: 6.103555851007905 | 5.779085235400539 | 20
+02-19 14:32 root         INFO     Succ: 143/167/190 | avg time: 81.61 s | avg iter: 162.74
+02-19 14:32 root         INFO     Synthesis route found!
+02-19 14:32 root         INFO     Final search status | success value | iter: 1.51945833184378 | 1.9179470859651924 | 3
+02-19 14:32 root         INFO     Succ: 144/168/190 | avg time: 81.13 s | avg iter: 161.79
+02-19 14:32 root         INFO     Synthesis route found!
+02-19 14:32 root         INFO     Final search status | success value | iter: 0.43534486413406215 | 0.4080329996948507 | 2
+02-19 14:32 root         INFO     Succ: 145/169/190 | avg time: 80.66 s | avg iter: 160.85
+02-19 14:33 root         INFO     Synthesis route found!
+02-19 14:33 root         INFO     Final search status | success value | iter: 7.653182351030324 | 6.919384684426449 | 132
+02-19 14:33 root         INFO     Succ: 146/170/190 | avg time: 80.49 s | avg iter: 160.68
+02-19 14:33 root         INFO     Synthesis route found!
+02-19 14:33 root         INFO     Final search status | success value | iter: 0.39588025060124404 | 0.03714915099662351 | 6
+02-19 14:33 root         INFO     Succ: 147/171/190 | avg time: 80.04 s | avg iter: 159.77
+02-19 14:33 root         INFO     Synthesis route found!
+02-19 14:33 root         INFO     Final search status | success value | iter: 6.96342424396417 | 7.3089924134154485 | 54
+02-19 14:33 root         INFO     Succ: 148/172/190 | avg time: 79.76 s | avg iter: 159.16
+02-19 14:35 root         INFO     Synthesis route found!
+02-19 14:35 root         INFO     Final search status | success value | iter: 8.00761281164528 | 7.825729154031632 | 136
+02-19 14:35 root         INFO     Succ: 149/173/190 | avg time: 79.74 s | avg iter: 159.02
+02-19 14:36 root         INFO     Synthesis route found!
+02-19 14:36 root         INFO     Final search status | success value | iter: 9.858935966510815 | 10.069716667226189 | 241
+02-19 14:36 root         INFO     Succ: 150/174/190 | avg time: 79.89 s | avg iter: 159.49
+02-19 14:38 root         INFO     Synthesis route found!
+02-19 14:38 root         INFO     Final search status | success value | iter: 9.268596421900131 | 9.018363434749553 | 97
+02-19 14:38 root         INFO     Succ: 151/175/190 | avg time: 79.90 s | avg iter: 159.14
+02-19 14:38 root         INFO     Synthesis route found!
+02-19 14:38 root         INFO     Final search status | success value | iter: 8.189521413965346 | 14.502965515216925 | 82
+02-19 14:38 root         INFO     Succ: 152/176/190 | avg time: 79.59 s | avg iter: 158.70
+02-19 14:39 root         INFO     Synthesis route found!
+02-19 14:39 root         INFO     Final search status | success value | iter: 7.601548113151984 | 13.202161849699428 | 69
+02-19 14:39 root         INFO     Succ: 153/177/190 | avg time: 79.31 s | avg iter: 158.19
+02-19 14:44 root         INFO     Final search status | success value | iter: 10.312971393271608 | inf | 500
+02-19 14:44 root         INFO     Succ: 153/178/190 | avg time: 80.52 s | avg iter: 160.11
+02-19 14:44 root         INFO     Synthesis route found!
+02-19 14:44 root         INFO     Final search status | success value | iter: 7.350249194539998 | 8.010489342698634 | 12
+02-19 14:44 root         INFO     Succ: 154/179/190 | avg time: 80.14 s | avg iter: 159.28
+02-19 14:47 root         INFO     Final search status | success value | iter: 11.7431069668648 | inf | 500
+02-19 14:47 root         INFO     Succ: 154/180/190 | avg time: 80.93 s | avg iter: 161.18
+02-19 14:47 root         INFO     Synthesis route found!
+02-19 14:47 root         INFO     Final search status | success value | iter: 0.6853107037703635 | 0.16353913519491028 | 4
+02-19 14:47 root         INFO     Succ: 155/181/190 | avg time: 80.50 s | avg iter: 160.31
+02-19 14:48 root         INFO     Synthesis route found!
+02-19 14:48 root         INFO     Final search status | success value | iter: 8.288436310868482 | 9.380355240699622 | 35
+02-19 14:48 root         INFO     Succ: 156/182/190 | avg time: 80.15 s | avg iter: 159.62
+02-19 14:48 root         INFO     Synthesis route found!
+02-19 14:48 root         INFO     Final search status | success value | iter: 7.247676215675398 | 13.368467376176852 | 36
+02-19 14:48 root         INFO     Succ: 157/183/190 | avg time: 79.78 s | avg iter: 158.95
+02-19 14:48 root         INFO     Synthesis route found!
+02-19 14:48 root         INFO     Final search status | success value | iter: 4.670104387612676 | 5.271614568925247 | 9
+02-19 14:48 root         INFO     Succ: 158/184/190 | avg time: 79.38 s | avg iter: 158.13
+02-19 14:51 root         INFO     Synthesis route found!
+02-19 14:51 root         INFO     Final search status | success value | iter: 7.369115673255182 | 13.949315444815825 | 451
+02-19 14:51 root         INFO     Succ: 159/185/190 | avg time: 79.98 s | avg iter: 159.71
+02-19 14:51 root         INFO     Synthesis route found!
+02-19 14:51 root         INFO     Final search status | success value | iter: 0.14651114257092251 | 0.006234683479247066 | 4
+02-19 14:51 root         INFO     Succ: 160/186/190 | avg time: 79.56 s | avg iter: 158.88
+02-19 14:54 root         INFO     Synthesis route found!
+02-19 14:54 root         INFO     Final search status | success value | iter: 8.465449861121058 | 7.257248735833303 | 323
+02-19 14:54 root         INFO     Succ: 161/187/190 | avg time: 80.00 s | avg iter: 159.75
+02-19 14:54 root         INFO     Synthesis route found!
+02-19 14:54 root         INFO     Final search status | success value | iter: 1.6171284470407274 | 0.15160411306851654 | 8
+02-19 14:54 root         INFO     Succ: 162/188/190 | avg time: 79.61 s | avg iter: 158.95
+02-19 14:56 root         INFO     Synthesis route found!
+02-19 14:56 root         INFO     Final search status | success value | iter: 7.959427567702115 | 7.349250470686986 | 185
+02-19 14:56 root         INFO     Succ: 163/189/190 | avg time: 79.76 s | avg iter: 159.08
+02-19 14:59 root         INFO     Synthesis route found!
+02-19 14:59 root         INFO     Final search status | success value | iter: 8.969477493601412 | 14.250512319276579 | 308
+02-19 14:59 root         INFO     Succ: 164/190/190 | avg time: 80.40 s | avg iter: 159.87

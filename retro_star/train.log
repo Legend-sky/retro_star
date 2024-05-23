@@ -1,0 +1,10 @@
+02-27 13:50 root         INFO     Initializing value model: latent_dim=128
+02-27 13:50 root         INFO     Loading value dataset from dataset/train_mol_fp_value_step.pt
+02-27 13:50 root         INFO     299102 (fp, value) pairs loaded
+02-27 13:50 root         INFO     299102 nagative samples loaded
+02-27 13:50 root         INFO     mean: 0.612587, std:1.430096, min: 0.000000, max: 44.669167, zeros: 0.000000
+02-27 13:50 root         INFO     Loading value dataset from dataset/val_mol_fp_value_step.pt
+02-27 13:50 root         INFO     88372 (fp, value) pairs loaded
+02-27 13:50 root         INFO     88372 nagative samples loaded
+02-27 13:50 root         INFO     mean: 2.735515, std:3.384174, min: 0.000000, max: 45.196476, zeros: 0.000000
+02-27 13:51 root         INFO     [Epoch 0/1] [training loss: 3.955632] [validation loss: 30.466003]

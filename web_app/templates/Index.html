@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #f5f2e2;
+        }
+
+        .box {
+            width: 1000px;
+            margin: auto;
+        }
+
+        .Navigation {
+            text-align: center;
+            font-size: 30px;
+            color: rgb(255, 123, 0);
+        }
+
+        .tip {
+            height: 26px;
+            line-height: 26px;
+            font-size: 26px;
+
+        }
+
+        .Input_SMILES {
+            width: 100%;
+            height: 50px;
+            margin: 20px 0;
+            box-sizing: border-box;
+            border: 2px solid rgb(79, 79, 83);
+            border-radius: 4px;
+            font-size: 18px;
+
+        }
+
+        .input {
+            height: 120px;
+
+        }
+
+        .btn_upload {
+            width: 180px;
+            height: 40px;
+            line-height: 40px;
+            background: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
+            border: none;
+            border-radius: 10px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            color: #fff;
+            box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+                7px 7px 20px 0px rgba(0, 0, 0, .1),
+                4px 4px 5px 0px rgba(0, 0, 0, .1);
+            outline: none;
+            position: relative;
+            z-index: 0;
+            display: flex;
+            justify-content: center;
+            margin: auto;
+
+
+        }
+
+        .btn_upload::before {
+            position: absolute;
+            content: '';
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 0;
+            transition: all 0.3s ease;
+            border-radius: 10px;
+            background: linear-gradient(315deg, #4dccc6 0%, #96e4df 74%);
+            z-index: -1;
+        }
+
+        .btn_upload:hover::before {
+            top: 0;
+            height: 100%;
+        }
+
+        .btn_upload:active {
+            top: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="Navigation">Retrosynthesis</div>
+        <div class="tip">◆◆◆ Please Enter a Smiles</div>
+        <div class="input">
+            <form action="http://127.0.0.1:8000" method="post" , enctype="multipart/form-data">
+                <input type="text" class="Input_SMILES" name="Smiles">
+                <button class="btn_upload" type="submit">Start Explore</button>
+            </form>
+        </div>
+    </div>
+
+    <div>
+
+    </div>
+
+
+</body>
+
+</html>
