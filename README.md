@@ -2,20 +2,12 @@
 
 Retro*: Learning Retrosynthetic Planning with Neural Guided A* Search
 
-```bibtex
-@inproceedings{chen2020retro,
-  title={Retro*: Learning Retrosynthetic Planning with Neural Guided A* Search},
-  author={Chen, Binghong and Li, Chengtao and Dai, Hanjun and Song, Le},
-  booktitle={The 37th International Conference on Machine Learning (ICML 2020)},
-  year={2020}
-}
-```
 
 #### 1. Setup the environment
 
 ##### 1) Download the repository
     
-    git clone git@github.com:binghong-ml/retro_star.git
+    git clone https://github.com/Legend-sky/retro_star.git
     cd retro_star
     
 ##### 2) Create a conda environment
@@ -68,3 +60,8 @@ planner = RSPlanner(
 
 result = planner.plan('CCCC[C@@H](C(=O)N1CCC[C@H]1C(=O)O)[C@@H](F)C(=O)OC')
 ```
+
+#### 6.加入了一些修改
+    web显示一步逆合成预测
+    用uspto-50k的数据测试
+    测试医药小分子的测试结果
